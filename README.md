@@ -4,6 +4,8 @@ This program generates two **NxN** matrices filled with random integers from som
 
 This is a project for college course on Wrocław University of Technology - it was not meant to be developed for practical usage in some bigger environment/system.
 
+Python 2.7 is required to run this code.
+
 Please have in mention that this code can be optimized (and probably should), but it wasn't worth to care about it while developing. 
 ###Requirements
 There are two conditions for this application to work that results from algorithm used:
@@ -24,7 +26,7 @@ This code works with versions stated above - it may be possible for functions us
 Server is 
 
 Server requires two parameters during runtime:
-* Host url
+* Host URL
 * Port
 
 For the sake of this project I assume that we live in a happy world where data provided by server owner is always correct. It is more probable that person runnign this file on his server knows what he is doing. 

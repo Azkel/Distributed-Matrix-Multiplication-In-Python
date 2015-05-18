@@ -1,3 +1,5 @@
+_author__ = 'Michal Smyk'
+
 import numpy.matlib
 import time
 import Pyro4
