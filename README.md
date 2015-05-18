@@ -10,13 +10,15 @@ There are two conditions for this application to work that results from algorith
 * Number of computers/processes must be a *perfect square*
 * Array dimension divided by square root of value from previous point must an integer.
 
-##Algorithm
+###Algorithm
 Algorithm based on [this presentation](http://www.cse.buffalo.edu/faculty/miller/Courses/CSE633/Ortega-Fall-2012-CSE633.pdf) by Patricia Ortega from University at Buffalo.
 
 ### Dependencies
 Modules required for this projects:
-* Numpy/Numpy.Matlib
-* Pyro4
+* [Numpy](http://www.numpy.org/)/Numpy.Matlib - version 1.9.2
+* [Pyro4](https://pythonhosted.org/Pyro4/) - version 4.35
+
+This code works with versions stated above - it may be possible for functions used here to become deprecated in later versions of those libraries.
 
 ### Server.py
 Server is 
